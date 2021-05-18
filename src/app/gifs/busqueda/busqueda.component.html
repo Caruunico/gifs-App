@@ -1,0 +1,12 @@
+<h5>Buscar gifs:</h5>
+                
+                <input 
+                type="text" 
+                class="form-control" 
+                placeholder="Buscar gifs..."
+                (keyup.enter)="buscar()"
+                #txtBuscar
+                >
+    <!-- Cuando un usuario presiona y suelta una tecla, ocurre el evento keyup.
+        se usa para obtener valores después de cada pulsación de tecla.
+    #txtBuscar es una referencia local -->
